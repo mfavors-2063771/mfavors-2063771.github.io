@@ -1,0 +1,47 @@
+body {
+    background-color: turquoise;
+}
+
+.boxes {
+    border: solid 8px gold;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #8e41d5;
+    border-radius: 25px;
+}
+
+#Header {
+    font-family: "Impact";
+}
+
+#Paragraph1 {
+    font-family: "Verdana";
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+img {
+    filter: saturate(200%);
+}
+
+.dotted {
+    border-style: dotted;
+}
+
+#floater {
+    float: left;
+}
