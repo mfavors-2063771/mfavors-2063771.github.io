@@ -2,17 +2,13 @@ body {
     background-image: url(wood.jpg);
 }
 
-#Header,
-#LeftNav,
-#Content,
-#Footer {
+.firstClass {
     border: solid 8px black;
     background-color: #8e41d5;
     text-align: center;
 }
 
-#Header,
-#Content {
+.secondClass {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
