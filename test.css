@@ -10,6 +10,8 @@ body {
     margin-bottom: 10px;
     text-align: center;
     background-color: #8e41d5;
+    cursor: crosshair;
+    transform: scaleY(1.5);
 }
 
 #LeftNav {
@@ -47,6 +49,7 @@ h1 {
     color: #ffbc00;
     font-size: 60px;
     font-family: "Passion One";
+    text-decoration: underline;
 }
 
 h3 {
@@ -60,4 +63,9 @@ p {
     color: white;
     font-family: "Arial";
     font-weight: bold;
+}
+
+img {
+    filter: saturate(100%);
+    opacity: 0.5;
 }
